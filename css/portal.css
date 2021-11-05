@@ -1,23 +1,24 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color:#fdf8e8;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: #668D3C;
 }
 
 h1 {
+    font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #493829;
     line-height: 2.5em;
 }
 
@@ -37,13 +38,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#9DAAA2;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: #000000;
+    background-color: #9DAAA2;
     text-decoration: none;
 }
 
